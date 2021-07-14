@@ -10,6 +10,7 @@ SELECT c.country_name, r.region_name From countries c
 INNER JOIN regions r ON r.region_id=c.region_id
 
 -- Bu işlemleri oluşturduğunuz VİEWS'e sağ tıkladıktan sonra Proporties kısmından görebilirsiniz.
+-- Elimizde ki kısa bir kod fakat satırlarca kod yazdığımızı düşünün, bu nedenle viewler çok önemli ve değerlidir. 
 
 SELECT * FROM viewMisli
 
