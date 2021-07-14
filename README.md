@@ -1,1 +1,0 @@
-# PostgreSQL-Genel-Bilgiler
