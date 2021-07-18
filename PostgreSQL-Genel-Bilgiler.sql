@@ -179,7 +179,7 @@ WHERE maas=(SELECT MAX(maas) FROM calisan)
 -- Burada sadece en yüksek maaşı değil en yüksek maaşın kime ait olduğunu göstermiş olduk
 
 SELECT * FROM celisan
-WHERE maas=(SELECT departman, MAX(maas) FROM calisan WHERE departman='İstatistik') 
+WHERE maas=(SELECT MAX(maas) FROM calisan WHERE departman='İstatistik') 
 -- İstatistikçi olan çalışanlar içerisinden hangisinin maaşının en yüksek olduğunu bulduk
 
 /* Öğretici 21: Truncate Kullanımı */
